@@ -32,7 +32,10 @@
 .header-container {
   position: relative;
 }
-
+.nav-item:hover {
+  background-color: #E4E0E1;
+  color: white;
+}
 .vertical-line {
   position: absolute;
   left: 15%; /* Adjust this value to position the line correctly */
