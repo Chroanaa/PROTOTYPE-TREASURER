@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-container {
+  display: flex;
+}
+.navbar {
+  position: absolute;
+  margin-top: 7rem;
+  padding: 1rem;
+}
+.bi-caret-down {
+  margin-left: 7rem;
+}
+.navbar-toggler {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler:hover {
+  background-color: #1e477d;
+  color: white;
+}
+.nav-item {
+  width: 60%;
+}
