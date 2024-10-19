@@ -1,3 +1,5 @@
+
+//pie chart render
 Highcharts.chart('pie-container', {
     chart: {
         type: 'pie'
@@ -51,3 +53,27 @@ Highcharts.chart('pie-container', {
         }
     ]
 });
+const tableData = [
+    { date: '2023-10-01', expenseName: 'Office Supplies', amount: '$150.00' },
+    { date: '2023-10-02', expenseName: 'Travel', amount: '$300.00' },
+    { date: '2023-10-03', expenseName: 'Utilities', amount: '$200.00' },
+    { date: '2023-10-04', expenseName: 'Marketing', amount: '$500.00' },
+    { date: '2023-10-05', expenseName: 'Software', amount: '$250.00' }
+];
+
+//renders data in the table 
+const tableBody = document.querySelector('.table-body');
+const renderTable = (tableData) => {
+    tableBody.innerHTML = '';
+    tableData.forEach((item) => {
+        const tr = document.createElement('tr');
+        tr.classList.add('text-center');
+        tr.innerHTML = `
+            <td>${item.date}</td>
+            <td>${item.expenseName}</td>
+            <td>${item.amount}</td>
+                        `;
+        tableBody.appendChild(tr);
+    });
+};
+renderTable(tableData);
