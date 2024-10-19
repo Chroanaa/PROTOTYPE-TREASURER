@@ -1,0 +1,40 @@
+.card{
+    background-color: #1e477d;
+    color:white;
+    font-size: 3rem;
+}
+
+.highcharts-figure{
+    margin-top: 1rem;
+    border: 1px solid #000;
+    border-radius: 10px;
+   width: 50%;
+}
+.number-container {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+
+}
+.container{
+    height: 800px;
+    overflow-y:auto;
+}
+.box-blue {
+    width: 20px; 
+    height: 20px;
+    background-color: blue;
+    margin-right: 10px; 
+}
+.box-pink {
+    width: 20px; 
+    height: 20px; 
+    background-color: pink; 
+    margin-right: 10px; 
+}
+.number-container p {
+    margin: 0; 
+    padding: 0;
+}

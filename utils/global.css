@@ -22,6 +22,22 @@
   background-color: #1e477d;
   color: white;
 }
+.navbar-toggler:focus {
+  background-color: #1e477d;
+  color: white;
+}
 .nav-item {
   width: 60%;
+}
+.header-container {
+  position: relative;
+}
+
+.vertical-line {
+  position: absolute;
+  left: 15%; /* Adjust this value to position the line correctly */
+  top: 0;
+  bottom: 0;
+  width: 0.1rem; 
+  background-color: #000; 
 }
