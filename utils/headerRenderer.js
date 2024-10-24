@@ -39,12 +39,48 @@ function renderHeader() {
                 </li>
                 </li>
                 <li class="nav-item border border-1 rounded">
-                  <a class="nav-link p-1" href="#">
+                  <a class="nav-link p-1" href="../CollectionOfFees/CollectionOfFees.html">
                     <img
                       src="../assets/images/collection.png"
                       alt=""
                       class="p-2"
                     />Collection of fees</a
+                  >
+                </li>
+                 <li class="nav-item border border-1 rounded">
+                  <a class="nav-link p-1" href="../ProcessingSalaries/ProcessingSalaries.html">
+                    <img
+                      src="../assets/images/collection.png"
+                      alt=""
+                      class="p-2"
+                    />Processing of Salaries  </a
+                  >
+                </li>
+                 <li class="nav-item border border-1 rounded">
+                  <a class="nav-link p-1" href="../DisbursementOfFunds/DisbursementOfFunds.html">
+                    <img
+                      src="../assets/images/collection.png"
+                      alt=""
+                      class="p-2"
+                    />Disbursement of Funds</a
+                  >
+                </li>
+                 <li class="nav-item border border-1 rounded">
+                  <a class="nav-link p-1" href="../BudgetAllocation/BudgetAllocation.html">
+                    <img
+                      src="../assets/images/collection.png"
+                      alt=""
+                      class="p-2"
+                    />Budget Allocation</a
+                  >
+                </li>
+                 <li class="nav-item border border-1 rounded">
+                  <a class="nav-link p-1" href="../Request/Request.html">
+                    <img
+                      src="../assets/images/collection.png"
+                      alt=""
+                      class="p-2"
+                    />Request</a
                   >
                 </li>
               </ul>

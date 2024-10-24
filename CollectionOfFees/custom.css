@@ -1,0 +1,30 @@
+.card{
+    background-color: #1e477d;
+    color:white;
+    font-size: 3rem;
+}
+.table {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+width: 100%; 
+}
+.container{
+    max-height: 800px;
+    overflow: auto;
+}
+.table-container{
+    overflow: auto;
+    overflow-x: hidden;
+    max-height: 500px;
+}
+input{
+    margin-bottom: 20px;
+}
+.sticky{
+  position: sticky;
+  top:0px;
+  background-color: white;
+  padding: 30px !important;
+
+}
